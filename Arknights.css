@@ -1,0 +1,185 @@
+/*Background, Body, & Header Style*/
+html {
+    background-color: mintcream;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: royalblue;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+/*End of Background, Body, & Header Style*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h5 {
+    text-align: center;
+}
+
+/*Banner Overlay*/
+.image-banner {
+    position: relative;
+    top: none;
+    left: 5px;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 108px;
+}
+
+.banner-description p {
+    color: white;
+}
+/*End of Banner Overlay*/
+
+/*Site Navigation*/
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: royalblue;
+    padding: 10px 20px;
+    border: 3px solid mintcream;
+    border-bottom: none;
+    display: block;
+}
+
+.site-nav a:hover {
+    background-color: mintcream;
+}
+/*End of Site Navigation*/
+
+/*Content Style*/
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.content-area {
+    border-top: 3px solid mintcream;
+    border-bottom: 3px solid mintcream;
+}
+
+.main-area {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color: mintcream;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fix {
+    clear: both;
+}
+/*End of Content Style*/
+
+/*Font Color, Style, and Highlights*/
+p {
+    color: black;
+}
+
+footer p {
+    color: red;
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: royalblue;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: blueviolet;
+}
+
+aside {
+    color: royalblue;
+}
+/*End of Font Color, Style, and Highlights*/
+
+/*Table (Vanguard)*/
+.Vanguard {
+    border-collapse: collapse;
+    margin: 0px 0px;
+    font-size: 1.0em;
+    min-width: 525px;
+}
+
+.Vanguard thead tr {
+    background-color: mintcream;
+    color: blueviolet;
+    text-align: center;
+}
+
+.Vanguard th,
+.Vanguard td {
+    padding: 5px 25px;
+}
+
+.Vanguard tbody tr {
+    border: 1px solid mintcream
+}
+/*End of Table (Vanguard)*/
